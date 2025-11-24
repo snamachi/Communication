@@ -62,45 +62,6 @@ def partition(lst):
 	
 	return [x for x in partition if x!=[]]
 
-"""
-undet=True
-n=10
-while undet:
-	p=random.random()
-	tosses_A=1+floor(n*random.random())
-	tosses_B=1+floor(n*random.random())
-
-	heads_A=0
-	for i in range(tosses_A):
-		heads_A+=(random.random()<p)
-
-	heads_B=0
-	for i in range(tosses_B):
-		heads_B+=(random.random()<p)
-
-	a_rep=acoarscomm(n,(tosses_A,heads_A),(tosses_B,heads_B))
-	afin_rep=fincomm(n,(tosses_A,heads_A),(tosses_B,heads_B))
-	
-	a_dist=abs(a_rep[1][0]-a_rep[1][1])
-	afin_dist=abs(afin_rep[1][0]-afin_rep[1][1])
-	
-	print(a_dist)
-	print(afin_dist)
-	
-	if a_dist<afin_dist:
-		undet=False
-		print("AAAAAA")
-		print(heads_A)
-		print(tosses_A)
-		print("BBBBBB")
-		print(heads_B)
-		print(tosses_B)
-		print("REPORTS")
-		print(a_rep)
-		print(afin_rep)
-"""
-
-
 ##############################################################
 # Histogram of iterations until agreement for OG and coarse OG
 ##############################################################
