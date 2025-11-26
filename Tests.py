@@ -99,7 +99,7 @@ plt.close()
 
 
 ######################################################################
-# Histogram of iterations until agreement for corase Aumann and final
+# Histogram of iterations until agreement for coarse Aumann and final
 ######################################################################
 
 
